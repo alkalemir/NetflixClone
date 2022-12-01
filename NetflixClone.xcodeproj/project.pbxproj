@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		2DCBA1D52939221700AA19F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1D42939221700AA19F1 /* AppDelegate.swift */; };
 		2DCBA1D72939221700AA19F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1D62939221700AA19F1 /* SceneDelegate.swift */; };
-		2DCBA1D92939221700AA19F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1D82939221700AA19F1 /* ViewController.swift */; };
 		2DCBA1DE2939221800AA19F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBA1DD2939221800AA19F1 /* Assets.xcassets */; };
 		2DCBA1E12939221800AA19F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCBA1DF2939221800AA19F1 /* LaunchScreen.storyboard */; };
+		2DCBA1EF293923CA00AA19F1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1EE293923CA00AA19F1 /* MainTabBarController.swift */; };
+		2DCBA1F32939265000AA19F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1F22939265000AA19F1 /* HomeViewController.swift */; };
+		2DCBA1F52939265900AA19F1 /* HotMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1F42939265900AA19F1 /* HotMoviesViewController.swift */; };
+		2DCBA1F72939266600AA19F1 /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1F62939266600AA19F1 /* ReelsViewController.swift */; };
+		2DCBA1F92939266F00AA19F1 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1F82939266F00AA19F1 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DCBA1D12939221700AA19F1 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCBA1D42939221700AA19F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DCBA1D62939221700AA19F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DCBA1D82939221700AA19F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DCBA1DD2939221800AA19F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCBA1E02939221800AA19F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DCBA1E22939221800AA19F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCBA1EE293923CA00AA19F1 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2DCBA1F22939265000AA19F1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2DCBA1F42939265900AA19F1 /* HotMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotMoviesViewController.swift; sourceTree = "<group>"; };
+		2DCBA1F62939266600AA19F1 /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
+		2DCBA1F82939266F00AA19F1 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +91,8 @@
 		2DCBA1EA2939227C00AA19F1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2DCBA1D82939221700AA19F1 /* ViewController.swift */,
+				2DCBA1F1293923D100AA19F1 /* Other */,
+				2DCBA1F0293923CD00AA19F1 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,6 +119,25 @@
 				2DCBA1DD2939221800AA19F1 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		2DCBA1F0293923CD00AA19F1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBA1EE293923CA00AA19F1 /* MainTabBarController.swift */,
+				2DCBA1F22939265000AA19F1 /* HomeViewController.swift */,
+				2DCBA1F42939265900AA19F1 /* HotMoviesViewController.swift */,
+				2DCBA1F62939266600AA19F1 /* ReelsViewController.swift */,
+				2DCBA1F82939266F00AA19F1 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2DCBA1F1293923D100AA19F1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCBA1D92939221700AA19F1 /* ViewController.swift in Sources */,
+				2DCBA1F32939265000AA19F1 /* HomeViewController.swift in Sources */,
+				2DCBA1F52939265900AA19F1 /* HotMoviesViewController.swift in Sources */,
+				2DCBA1F92939266F00AA19F1 /* DownloadsViewController.swift in Sources */,
 				2DCBA1D52939221700AA19F1 /* AppDelegate.swift in Sources */,
+				2DCBA1F72939266600AA19F1 /* ReelsViewController.swift in Sources */,
+				2DCBA1EF293923CA00AA19F1 /* MainTabBarController.swift in Sources */,
 				2DCBA1D72939221700AA19F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
