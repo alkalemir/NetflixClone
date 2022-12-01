@@ -16,6 +16,8 @@
 		2DCBA1F52939265900AA19F1 /* HotMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1F42939265900AA19F1 /* HotMoviesViewController.swift */; };
 		2DCBA1F72939266600AA19F1 /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1F62939266600AA19F1 /* ReelsViewController.swift */; };
 		2DCBA1F92939266F00AA19F1 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1F82939266F00AA19F1 /* DownloadsViewController.swift */; };
+		2DCBA1FC2939317C00AA19F1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1FB2939317C00AA19F1 /* UIViewController.swift */; };
+		2DCBA1FE2939402100AA19F1 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCBA1FD2939402100AA19F1 /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		2DCBA1F42939265900AA19F1 /* HotMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotMoviesViewController.swift; sourceTree = "<group>"; };
 		2DCBA1F62939266600AA19F1 /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
 		2DCBA1F82939266F00AA19F1 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		2DCBA1FB2939317C00AA19F1 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		2DCBA1FD2939402100AA19F1 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		2DCBA1D32939221700AA19F1 /* NetflixClone */ = {
 			isa = PBXGroup;
 			children = (
+				2DCBA1FA2939317500AA19F1 /* Extensions */,
 				2DCBA1ED2939229F00AA19F1 /* Assets */,
 				2DCBA1EC2939228800AA19F1 /* Supporting Files */,
 				2DCBA1EB2939228200AA19F1 /* Services */,
@@ -140,6 +145,15 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		2DCBA1FA2939317500AA19F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DCBA1FB2939317C00AA19F1 /* UIViewController.swift */,
+				2DCBA1FD2939402100AA19F1 /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,12 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCBA1FE2939402100AA19F1 /* UIApplication.swift in Sources */,
 				2DCBA1F32939265000AA19F1 /* HomeViewController.swift in Sources */,
 				2DCBA1F52939265900AA19F1 /* HotMoviesViewController.swift in Sources */,
 				2DCBA1F92939266F00AA19F1 /* DownloadsViewController.swift in Sources */,
 				2DCBA1D52939221700AA19F1 /* AppDelegate.swift in Sources */,
 				2DCBA1F72939266600AA19F1 /* ReelsViewController.swift in Sources */,
 				2DCBA1EF293923CA00AA19F1 /* MainTabBarController.swift in Sources */,
+				2DCBA1FC2939317C00AA19F1 /* UIViewController.swift in Sources */,
 				2DCBA1D72939221700AA19F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

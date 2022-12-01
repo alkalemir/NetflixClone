@@ -15,6 +15,12 @@ class MainTabBarController: UITabBarController {
     }
     
     fileprivate func setupViewControllers() {
+        
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithTransparentBackground()
+        
+        UINavigationBar.appearance().standardAppearance = appearance
+        
         let vc1 = UINavigationController(rootViewController: HomeViewController())
         let vc2 = UINavigationController(rootViewController: HotMoviesViewController())
         let vc3 = UINavigationController(rootViewController: ReelsViewController())
